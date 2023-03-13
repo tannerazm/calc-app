@@ -1,0 +1,44 @@
+.calcPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calcMainDiv {
+    width: 50vw;
+    background-color: lightblue;
+}
+
+.calcButtonsGridDiv {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    gap: 10px 10px;
+    pointer-events: none;
+}
+
+.calcButton {
+    background-color: beige;
+    border-radius: 5px;
+    text-align: center;
+    pointer-events: all;
+}
+
+.calcButton:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.activated {
+    background-color: green;
+}
+
+.deny {
+    background-color: red;
+    pointer-events: none;
+}
+
+#operations, #liveView {
+    height: 20px;
+    background-color: lightblue;
+}
